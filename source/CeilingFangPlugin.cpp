@@ -140,7 +140,7 @@ yup::AudioProcessorEditor* CeilingFangPlugin::createEditor()
 #if CEILINGFANG_HEADLESS_TEST
     return nullptr;
 #else
-    return new ParameterGridEditor (*this, "CeilingFang", "Lookahead inter-sample peak limiter with standalone-only audition.", 0xffd8d8d8u);
+    return new ParameterGridEditor (*this, "CeilingFang", "Lookahead inter-sample peak limiter with standalone-only audition.", 0xfff2f2f0u);
 #endif
 }
 float CeilingFangPlugin::getInputPeakLevel() const noexcept { return static_cast<float> (inputPeakMilli.load (std::memory_order_relaxed)) * 0.001f; }
