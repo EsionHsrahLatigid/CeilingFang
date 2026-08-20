@@ -4,7 +4,6 @@
 - Status: Active
 - Last refreshed: 2026-08-12
 - Primary surfaces: YUP Standalone, VST3, AUv2 editor
-- Evidence: limiter/peak references and the nine-effect Digital Harsh Noise UI survey
 
 ## Product
 - Goal: turn ceiling impact, recovery, and final clipping into a performable destructive effect.

@@ -1,6 +1,5 @@
 # CeilingFang
 
-CeilingFang is a YUP stereo lookahead limiter for forcing Digital Harsh Noise against a controllable ceiling. It samples three linear interpolation points between adjacent samples for inter-sample peak awareness, delays the program path, applies immediate downward control with adaptive recovery, and optionally drives a bounded final clip stage. Hosted builds preserve silence; Standalone adds an audition source and meters only at compile time.
 
 ## Identity and formats
 
